@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="styles/css/style.css?v=0.0.10">
+    <script src="src/commonjs/weixinshare.min.js?v=0.0.1"></script>
+    <script data-main="src/main.min" src="src/require.min.js"></script>
+
+    <!-- <script src="/Scripts/jquery.form.js" type="text/javascript"></script>-->
+    <script>
+    WeixinShare.init({
+        imgUrl:"http://youyi.comeoncloud.net/test/1408/mainlogo.jpg?v=1",
+        descContent:"终于有机会体验万众追捧的传奇面霜了",
+        shareTitle:"一瓶万众追捧的传奇面霜",
+        timelineTitle:"终于有机会体验万众追捧的传奇面霜了"
+    })
+    </script>
+</head>
+<body>
+<section class="box">
+<!--     <div class="websiteiframebox">
+        <iframe class="websiteiframe" src="http://zhengdao.comeoncloud.net/web/index.aspx" frameborder="0" scrolling="auto" ></iframe>
+    </div> -->
+    <div id="loadingscreen">
+        <span class="loadtext">
+            Loading...
+        </span>
+    </div>
+    <div id="musicbutton" class="musicplay"></div>
+    <audio id="myaudio" src="bbb.mp3" ></audio>
+    <div id="imglist">
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic1.jpg?v=1);" style=""></span>
+            <span class="text top10" style="color:#fff;"><img src="styles/images/pic1.png" alt=""></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic2.jpg?v=1);" style=""></span>
+            <span class="text top10" style="color:#fff;">上世纪五十年代，<br/>美国太空物理学家麦克斯·贺伯博士<br/>不幸在一次实验爆炸中遭受意外灼伤。<br/>在当时，所有可用药物及医疗技术都无法治愈。<br/>博士从此开始了对修护容颜的不懈探寻。<br/>
+            </span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic7.jpg?v=1);" style=""></span>
+            <span class="text bottom25 left_15"  style="color:#fff;">博士遍寻原材，<br/>经历了各种艰苦繁复的试验，<br/>只为探求真正修复肌肤的<br/>神奇秘方......<br/></span>
+            <span class="nextbtn nextbtn2"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic4.jpg?v=1);" style=""></span>
+            <span class="text bottom7 left7" >一次，博士在海边散步中，<br/>偶然发现海藻采摘工人将深海巨藻<br/>作为绑带敷于受损肌肤，<br/>用以修复伤口。<br/>博士由此获得灵感，自此开始研究深海巨藻。 <br/></span>
+            <span class="nextbtn nextbtn2"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic5.jpg?v=1);" style=""></span>
+            <span class="text bottom12 " style="color:#fff;">深海巨藻，<br/>地球上最古老、最具生命力的植物之一。<br/>每天以2英尺的惊人速度生长，<br/>不论在长度上，以及在生长速度上，<br/>都可称得上是“世界之最”。</span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic6.jpg?v=1);" style=""></span>
+            <span class="text top20 left10" style="color:#fff; text-shadow:0 0 10px rgba(0,0,0,0.5);">深海巨藻蕴含超过48种微量元素<br/>以及丰富的矿物质，<br/>能够有效促进肌肤细胞再生，抗氧化，<br/>真正做到延缓衰老。<br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic8.jpg?v=1);" style=""></span>
+            <span class="text bottom12" style="color:#fff; text-shadow:0 0 10px rgba(0,0,0,0.8)">博士的科学思维让他深谙潮汐能量，<br/>精选北纬40度，自然纯净之地——<br/>圣地亚哥墨西哥湾，<br/>于每年5月及11月，因极地洋流的灌溉<br/>而令巨藻营养勃发的“黄金时段”，<br/>精选国宝级的深海巨藻作为主要原料。<br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic14-2.jpg?v=1);" style=""></span>
+            <span class="text bottom45" style="text-shadow:0 0 10px rgba(255,255,255,1);background-color: rgba(255,255,255,0.6);">博士把蕴含强大再生能量的深海巨藻，<br/>与维生素、矿物质、精纯精油<br/>及其它矿植物精华糅合，<br/>经历数月天然生物性发酵过程萃炼传奇成分。<br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli" style="background-color: #000 !important;">
+            <span class="img" data-original="background-image:url(styles/images/pic14.jpg?v=1);" style=""></span>
+            <span class="text bottom12" style="color:#fff;  text-shadow:0 0 10px rgba(0,0,0,0.5);background-color: rgba(0,0,0,0.6);">博士开创性地采用漫长低温低压的<br/>天然生物性发酵的方式，<br/>令深海巨藻原有的滋润保湿和修复再生力<br/>得以完整保留。<br/>整个过程精密繁复，犹如酿造顶级红酒。<br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic10.jpg?v=1);" style=""></span>
+            <span class="text top10" style="color:#fff;">在发酵过程中，<br/>他精心模拟深海环境的“声纳”和<br/>特定频率闪动的光线，<br/>让海藻感受仿若仍身处海洋，<br/>从而不吝释放最精华的部分。<br/>同时最大程度迸发所有成分的活性，<br/>发挥超越单一的成分力量。<br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic11.jpg?v=1);" style=""></span>
+            <span class="text bottom25 lineheight28" style="color:#fff;background-color: rgba(0,0,0,0.6);">历经12年光阴，6000次试验，<br/>最终萃炼出品牌灵魂成分、修护再生秘方——<br/><strong><i>神奇活性精萃Miracle Broth™。</i></strong><br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic12.jpg?v=1);" style=""></span>
+            <span class="text top10" style="color:#fff;">以传奇成分为核心制作出的<br/>海蓝之谜精华面霜，<br/>奇迹般抚平博士的受损肌肤。<br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic15.jpg?v=1);" style=""></span>
+            <span class="text top10" style="color:#fff;">多年以来，<br/>海蓝之谜仍严循着博士所定下的每一个细节:<br/>坚持手工采摘巨藻<br/>24小时内冰鲜空运至贺伯博士实验室<br/>坚持手工装罐于御用蛋白瓷瓶中<br/></span>
+            <span class="nextbtn"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic16.jpg?v=1);" style=""></span>
+            <span class="text bottom12">海蓝之谜精华面霜<br/>拥有卓越的自我修护再生能力，<br/>令肌肤保湿润泽、柔嫩细腻、<br/>饱满紧致、健康透亮，<br/>由内而外绽放初生般年轻光彩。<br/></span>
+            <span class="nextbtn nextbtn2"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic17.jpg?v=1);" style=""></span>
+            <span class="text bottom25 lineheight28" >使用精华面霜时，<br/>凭借独特的使用步骤<br/>唤醒封存的深海再生能量。<br/><!-- <img src="styles/images/pic17.png" width="50%" alt=""> -->
+            <iframe width="80%" src="http://v.qq.com/iframe/player.html?vid=n0132nnmjn8&tiny=0&auto=0" frameborder=0 allowfullscreen></iframe>
+<!-- <iframe  width="80%" src="http://player.youku.com/embed/XNzQ2Mzg1NjU2" frameborder=0 allowfullscreen></iframe> -->
+            </span>
+            <span class="nextbtn nextbtn2"><span class="smallicon"></span></span>
+        </div>
+        <div class="listli">
+            <span class="img" data-original="background-image:url(styles/images/pic18.jpg?v=1);" style=""></span>
+            <span class="text top10 text1" style="color:#fff;">
+                <img src="styles/images/pic18.png" alt="">
+            </span>
+
+            <span class="text text2" style="color:#fff;bottom:1%">
+                <form action="" id="formsignin">
+                <input placeholder="请输入您的姓名" class="maininput" type="text" name="Name"><br/>
+                <input placeholder="请输入您的手机"  pattern="\d*"class="maininput" type="text" name="Phone"><br/>
+                <select class="maininput" id="checkcity">
+                    <option value="">选择所在城市</option>
+                </select><br/>
+                <select class="maininput" id="shopname" name="K1">
+                    <option value="">请选择领取专柜</option>
+                </select><br/>
+                <input type="hidden" name="LoginName" value="eW91eWk=" />
+                <input type="hidden" name="LoginPwd" value="21DE2E21A420!#28!49FB#F29B105A2E" />
+                <input type="hidden" name="ActivityID" value="202031" />
+                <span class="mainbutton" id="submitinfo">提交申请</span>
+                <span class="mainbutton zhongjiangmingdan">中奖名单</span><br/>
+                <span class="texttitle">*愈颜奇迹体验组包含:精华面霜3.5ml,浓缩修护眼部精华霜3ml,活颜焕肤精华3ml</span>
+                </form>
+            </span>
+        </div>
+    </div>
+<div class="dialogbox" >
+    <span class="text">中奖名单尚未公布</span>
+    <span class="dialogboxbutton">确定</span>
+</div>
+<div class="dialogbox2" >
+    <span class="text">提交成功</span>
+    <span class="dialogboxbutton2">确定</span>
+</div>
+<style>
+#formsignin .texttitle{
+    font-size:12px;
+    box-sizing:border-box;
+    padding:0 15%;
+    word-wrap: break-word;
+    width:100%;
+    display: block;
+}
+.listli13 .text .donghua1,
+.listli13 .text .donghua2,
+.listli13 .text .donghua3,
+.listli13 .text .donghua4{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.mainbutton{
+    margin: 0 5px 10px 5px;
+}
+.dialogbox,.dialogbox2{
+    background-color: #fff;
+    border: 1px solid #999;
+    z-index: 98;
+    width: 90%;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    display: none;
+}
+.dialogboxbutton,.dialogboxbutton2{
+    display: block;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    background-color: #86b234;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0 auto;
+    color:#fff;
+}
+.dialogbox .text{
+    display: block;
+    height: 70px;
+    line-height: 20px;
+    padding-top: 40px;
+}
+.dialogbox2{
+    padding-top: 10px;
+    line-height: 20px;
+}
+.dialogboxbutton2{
+    margin-top: 10px;
+}
+</style>
+</section>
+<script>
+
+require.config({
+    baseUrl:"./src/",
+    shim:{ 
+        jqueryform:["jquery"]
+    },
+    paths:{
+        jquery:"commonjs/jquery.min",
+        WeShow:"commonjs/weshow.min",
+        jqueryform:"http://youyi.comeoncloud.net/Scripts/jquery.form"
+    }
+})
+require(["jquery","WeShow","jqueryform"],function($,WeShow){
+
+
+$(".zhongjiangmingdan").bind("click",function(){
+    $(".dialogbox").find(".text").html("若申领成功<br/>我们会通过短信方式通知。");
+    $(".dialogbox").show();
+})
+$(".dialogboxbutton").bind("click",function(){
+    $(".dialogbox").hide();
+})
+$(".dialogboxbutton2").bind("click",function(){
+    $(".dialogbox2").hide();
+})
+
+
+
+    touchpic=new WeShow("#imglist",function(_this,snum){
+        var current=$(".listli:eq("+snum+")");
+        switch(snum){
+            case 0:
+                _this.animation(current.find(".text"),18,function(){
+                    _this.animation(current.find(".nextbtn"),20,function(){
+                    })
+                });
+            break;
+            // case 1:
+            //     $(".listli2 .text").css({"opacity":"1"})
+            //     _this.animation(current.find(".donghua1"),18,function(){
+            //         _this.animation(current.find(".donghua2"),18,function(){
+            //             _this.animation(current.find(".donghua3"),18,function(){
+            //                 _this.animation(current.find(".nextbtn"),20,function(){})
+            //             })
+            //         })
+            //     });
+            // break;
+            // case 8:
+            //     _this.animation(current.find(".img"),5)
+            //     _this.animation(current.find(".text"),15,function(){
+            //         _this.animation(current.find(".nextbtn"),20,function(){
+            //         })
+            //     });
+            // break;
+            // case 12:
+            //     $(".listli13 .text").css({"opacity":"1"})
+            //     _this.animation(current.find(".donghua1"),19,function(){
+            //         _this.animation(current.find(".donghua2"),19,function(){
+            //             _this.animation(current.find(".donghua3"),19,function(){
+            //                 _this.animation(current.find(".donghua4"),21,function(){
+            //                     _this.animation(current.find(".nextbtn"),20,function(){})
+            //                 })
+            //             })
+            //         })
+            //     });
+            // break;
+            case 16:
+                _this.animation(current.find(".text1"),15)
+                _this.animation(current.find(".text2"),15)
+            break;
+            default:
+                    _this.animation(current.find(".text"),15,function(){
+                        _this.animation(current.find(".nextbtn"),20)
+                    });
+        }
+    });
+
+
+var shopcity=["北京","上海","天津","石家庄","太原","沈阳","长春","哈尔滨","济南","郑州","青岛","大连","呼和浩特","南京","苏州","合肥","无锡","杭州","宁波","温州","成都","重庆","昆明","长沙","广州","武汉","西安"];
+var shop1=["北京赛特","北京汉光","北京燕莎","北京新光","北京翠微","北京双安","北京连卡佛"];
+var shop2=["上海梅龙镇","上海东方","上海连卡佛","上海八佰伴","上海虹桥友谊","上海久光","上海国金"];
+var shop3=["天津友谊"];
+var shop4=["石家庄北国"];
+var shop5=["太原华宇","太原王府井","太原天美"];
+var shop6=["沈阳中兴","沈阳卓展"];
+var shop7=["长春卓展"];
+var shop8=["哈尔滨远大"];
+var shop9=["济南银座"];
+var shop10=["郑州丹尼斯"];
+var shop11=["青岛海信"];
+var shop12=["大连麦凯乐","大连友谊"];
+var shop13=["呼和浩特维多利"];
+var shop14=["南京德基","南京金鹰A","南京金鹰B"];
+var shop15=["苏州美罗"];
+var shop16=["合肥银泰"];
+var shop17=["无锡八佰伴"];
+var shop18=["杭州大厦","杭州银泰"];
+var shop19=["宁波银泰"];
+var shop20=["温州时代广场"];
+var shop21=["成都王府井","成都仁和人东","成都连卡佛","成都仁和光华"];
+var shop22=["重庆太平洋"];
+var shop23=["昆明金格汇都","昆明金格时光","昆明百盛"];
+var shop24=["长沙友谊"];
+var shop25=["广州友谊"];
+var shop26=["武商广场"];
+var shop27=["西安金花"];
+
+var checkcity=$("#checkcity")[0]
+for (var i=0; i<shopcity.length; i++) {
+    checkcity.options.add(new Option(shopcity[i],i+1)); 
+}
+var shopname=$("#shopname")[0];
+
+$(checkcity).change(function(){
+    for (var i=shopname.options.length; i>0; i--) shopname.remove(i);
+    if (checkcity.value == "") return;
+    var a = eval("shop"+checkcity.value); //得到城市的数组名 
+    for (var i=0; i<a.length; i++) shopname.options.add(new Option(a[i], a[i])); 
+})
+
+$("#submitinfo").click(function () {
+    try {
+        var option = {
+            url: "/serv/ActivityApiJson.ashx",
+            type: "post",
+            dataType: "text",
+            success: function (result) {
+                var resp = $.parseJSON(result);
+                //清空
+                if (resp.Status == 0) {
+
+                    $(".dialogbox2").find(".text").html("恭喜您完成提交申领！<br/>为您奉上海蓝之谜特别礼遇，即日起至12月31日，<br/>至www.LaMer.com.cn任意购物，<br/>在结账时输入尊享代码：<strong style='text-decoration: underline;'>restage</strong><br/>即可尊享30ml护手霜一支");
+                    $(".dialogbox2").show();
+
+                    // alert("提交成功!");
+                    //跳转页面
+                }
+                else if (resp.Status == 1) {
+                    $(".dialogbox").find(".text").html("此手机号已经报过名了");
+                    $(".dialogbox").show();
+                    // alert("此手机号已经报过名了");
+                }
+                else {
+                    $(".dialogbox").find(".text").html(resp.Msg);
+                    $(".dialogbox").show();
+                    // alert(resp.Msg);
+                }
+
+            }
+        };
+        $("#formsignin").ajaxSubmit(option);
+        return false;
+    }
+    catch (e) {
+        alert(e);
+    }
+});
+
+})
+
+</script>
+</body>
+</html>
+
+
